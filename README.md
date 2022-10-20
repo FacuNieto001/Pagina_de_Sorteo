@@ -1,2 +1,4 @@
 # Pagina_de_Sorteo
-Una pagina para un sorteo
+
+
+Esta página está dedicada a nuestros oyentes, para que puedan escucharnos y participar en nuestro sorteos.
