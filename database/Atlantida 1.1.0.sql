@@ -23,7 +23,7 @@ INSERT INTO Personas VALUES
 SELECT * from Personas order by ganador;
 SELECT * from Personas order by rand() limit 5;
 
--- aplellito 
+-- aplellito //apellido*
 
 
 
