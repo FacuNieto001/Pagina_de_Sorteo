@@ -4,6 +4,18 @@
     font-family: 'Inter';
 }
 
+:root{
+    /*GENERAL*/
+    --color-g: #FFB606;
+    /*TOP*/
+    --bg-glass: rgba(0, 0, 0, 0.5); 
+    /*MIDDLE*/
+    --letter-color: #666;
+    /*BOTTOM*/
+    --btn-he: 120px;
+    --btn-wi: 480px;
+}
+
 
 /*---------------------------------TOP---------------------------------*/
 .topFrameMain{
@@ -26,7 +38,7 @@
     position:absolute; /*position absolute para colocarlo delante de la imagen*/
     top:0; /*posicionamos el div a la altura del contenedor*/
     border-radius:10px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--bg-glass);
     backdrop-filter: blur(5px); /*El efecto de vidrio*/
     display: flex;
     justify-content: center;
@@ -77,7 +89,7 @@
 .line3{
     width: 0px;
     height: 64px;
-    border: 3px solid #FFB606;
+    border: 3px solid var(--color-g);
     margin-right: 30px;
 }
 
@@ -118,12 +130,12 @@
 .line2{
     width: 272px;
     height: 0px;
-    border: 3px solid #FFB606;
+    border: 3px solid var(--color-g);
 }
 
 p{
     font-size: 30px;
-    color: #666;
+    color: var(--letter-color);
     margin-bottom: 20px;
     font-style: normal;
 }
@@ -140,12 +152,12 @@ p{
 
 .btnShowS{
     box-sizing: border-box;
-    width: 530px;
-    height: 150px;
+    width: var(--btn-wi);
+    height: var(--btn-he);
     color: #000;
 
     background: #FFFFFF;
-    border: 10px solid #FFB606;
+    border: 10px solid var(--color-g);
     border-radius: 50px 0px;
 
     /*Message*/
@@ -158,10 +170,10 @@ p{
 
 .btnShowS:hover{
     opacity: 50%;
-    width: 530px;
-    height: 150px;
+    width: var(--btn-wi);
+    height: var(--btn-he);
 
-    background: #FFB606;
+    background: var(--color-g);
     transition: opacity 5s ease-in-out;
     opacity: 100%;
     border-radius: 50px 0px;
