@@ -179,3 +179,49 @@ p{
     border-radius: 50px 0px;
 
 }
+
+/*NEXT HOME*/
+.tableContainer{
+    width: 330px;
+    height: 300px;
+    overflow-y: scroll;
+}
+table {
+    border: orangered 2px solid;
+    border-collapse: collapse;
+    width: 310px;
+    height: 300px;
+    overflow: scroll;
+
+}
+
+td{
+    height:15px;
+    background-color: rgb(221, 207, 243);
+    color: rgb(59, 92, 121);
+    font-size: 15px;
+    text-align: center;
+    border: orangered 2px solid;
+    overflow: hidden;
+}
+
+th{
+    background-color: rgb(238, 146, 146);
+    height:15px;
+    width: 100px;
+    color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+    border: orangered 2px solid;
+}
+
+
+.tuKola{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: #FFF;
+    background:rgba(4, 0, 252, 0.5);
+    border-radius: 10px;
+    margin: 20px 103px;
+}
