@@ -9,28 +9,39 @@
 </head>
 <body>
     <button class="tuKola" onclick="charge()">Cargar</button>
-    <table id="participanTable">
-        <tr>
-          <th>Nombre</th>
-          <th>Apellido</th>
-          <th>DNI</th>
-        </tr>
-        <tr>
-          <td>Ayrton</td>
-          <td>Miotti</td>
-          <td>45093210</td>
-        </tr>
-        <tr>
-          <td>Facundo</td>
-          <td>Nieto</td>
-          <td>355u93r64Y</td>
-        </tr>
-        <tr>
-            <td>Ludmila</td>
-            <td>Noriega</td>
-            <td>12345678</td>
-          </tr>
-      </table>
+    <form action="optionForm">
+      <select name="select" id="select">
+        <option value="option" class="option1">10</option>
+        <option value="option" class="option2">50</option>
+        <option value="option" class="option3">100</option>
+      </select>
+    </form>
+    <form action="auth" class="formParticipants" method="post">
+      <div class="tableContainer">
+        <table id="participanTable">
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>DNI</th>
+            </tr>
+            <tr>
+              <td>Ayrton</td>
+              <td>Miotti</td>
+              <td>45093210</td>
+            </tr>
+            <tr>
+              <td>Facundo</td>
+              <td>Nieto</td>
+              <td>355u93r64Y</td>
+            </tr>
+            <tr>
+                <td>Ludmila</td>
+                <td>Noriega</td>
+                <td>12345678</td>
+              </tr>
+          </table>
+        </div>
+      </form>
       <script src="main.js"></script>
 </body>
 </html>
