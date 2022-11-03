@@ -249,6 +249,12 @@ th{
 
 
 /*IZQUIERDA*/
+.left-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .winnersContainer{
     width: 450px;
     height: 550px;
@@ -312,4 +318,38 @@ th{
 .listReward{
     font-size: 30px;
     color: var(--coloerLetter);
+}
+
+
+/*IZQUIERDA - ABAJO*/
+.TittleSorteo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lineSorteo{
+    width: 334px;
+    height: 0px;
+    border: 3px solid #FFB606;
+    margin-bottom: 30px;
+}
+
+.Text2Container{
+    width: 370px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.pSorteo{
+    text-align: center;
 }
