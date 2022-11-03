@@ -372,4 +372,20 @@ th{
 
 .participanTable{
     width: 483px;
+
+}
+
+/*-----------TABLAS SORTEO----------*/
+.ganadores{
+    position: absolute;
+    left: 130vh;
+    top: 80vh;
+    border: #FFB606 10px solid;
+    border-radius: 10em;
+}  
+
+.ganadoresANTERIORES{
+    position: absolute;
+    left: 130vh;
+    top: 130vh;
 }
