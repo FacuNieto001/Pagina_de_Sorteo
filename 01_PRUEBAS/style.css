@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter';
+    font-style: normal;
 }
 
 
 :root{
     --coloerLetter: #FFB606;
 }
+
+/*_______________________________________________________________________
+_________________________________PAGE 1_________________________________*/
+
 
 /*---------------------------------TOP---------------------------------*/
 .topFrameMain{
@@ -201,54 +206,11 @@ p{
     height: 50px;
 }
 
-/*DERECHA*/
 
-.tableContainer{
-    width: 330px;
-    height: 300px;
-    overflow-y: scroll;
-}
+/*_______________________________________________________________________
+_________________________________PAGE 2_________________________________*/
 
-table {
-    border: orangered 2px solid;
-    border-collapse: collapse;
-    width: 310px;
-    height: 300px;
-    overflow: scroll;
-}
-
-td{
-    height:15px;
-    background-color: rgb(221, 207, 243);
-    color: rgb(59, 92, 121);
-    font-size: 15px;
-    text-align: center;
-    border: orangered 2px solid;
-    overflow: hidden;
-}
-
-th{
-    background-color: rgb(238, 146, 146);
-    height:15px;
-    width: 100px;
-    color: aquamarine;
-    font-size: 20px;
-    text-align: center;
-    border: orangered 2px solid;
-}
-
-.tuKola{
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    color: #FFF;
-    background:rgba(4, 0, 252, 0.5);
-    border-radius: 10px;
-    margin: 20px 103px;
-}
-
-
-/*IZQUIERDA*/
+/*---------------------------------LEFT---------------------------------*/
 .left-Container{
     display: flex;
     flex-direction: column;
@@ -320,8 +282,6 @@ th{
     color: var(--coloerLetter);
 }
 
-
-/*IZQUIERDA - ABAJO*/
 .TittleSorteo{
     font-family: 'Inter';
     font-style: normal;
@@ -352,4 +312,64 @@ th{
 
 .pSorteo{
     text-align: center;
+}
+
+
+/*---------------------------------RIGHT---------------------------------*/
+.tableContainer{
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+table {
+    border: orangered 2px solid;
+    border-collapse: collapse;
+    width: 483px;
+    height: 300px;
+    overflow: scroll;
+}
+
+td{
+    height:15px;
+    background-color: rgb(221, 207, 243);
+    color: rgb(59, 92, 121);
+    font-size: 15px;
+    text-align: center;
+    border: orangered 2px solid;
+    overflow: hidden;
+}
+
+th{
+    background-color: rgb(238, 146, 146);
+    height:15px;
+    width: 100%;
+    color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+    border: orangered 2px solid;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    width: auto;
+}
+
+.tuKola{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: #FFF;
+    background:rgba(4, 0, 252, 0.5);
+    border-radius: 10px;
+    margin: 20px 103px;
+}
+
+.formParticipants{
+    width: 500px;
+}
+
+.participanTable{
+    width: 483px;
 }
