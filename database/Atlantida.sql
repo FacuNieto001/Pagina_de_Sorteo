@@ -3,8 +3,7 @@ create database if not exists  sorteo_atlantida;
 use sorteo_atlantida;
 
 create table alumnos(
-	IDA int auto_increment
-    ,
+	IDA int auto_increment,
     apellido varchar(20),
     nombre varchar(20),
     DNI int,
