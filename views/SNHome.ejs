@@ -29,13 +29,15 @@
               <td>Miotti</td>
               <td>45093210</td>
             </tr>
-            <%results.foreach((user=> { %>
-            <tr>
-              <td><%= alumnos.NOM %></td>
-              <td><%= alumnos.APE %></td>
-              <td><%= alumnos.DNI %></td>
-            </tr>
-            <% })) %>
+            <% if(results){ %>
+                <%results.foreach((user=> { %>
+                <tr>
+                <td><%= alumnos.NOM %></td>
+                <td><%= alumnos.APE %></td>
+                <td><%= alumnos.DNI %></td>
+                </tr>
+                <% })) %>
+            <% } %>
           </table>
         </div>
         <input type="submit" value="Enviar">

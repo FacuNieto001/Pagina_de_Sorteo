@@ -29,7 +29,7 @@ const connection = require('./database/db');
 
 
 // 7 - Rutas
-app.get('/hola', (req, res)=>{
+app.get('/', (req, res)=>{
     return res.render('SNHome');
 })
 
